@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p, li {
+    font-size: 12px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 300px;
+    padding: 0 1%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.header h1 {
+    font-weight: 750;
+}
+
+.header p {
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.header hr {
+    height: 7px;
+    background-color: black;
+}
+
+#flex1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+li {
+    font-size: 0.6em;
+    list-style-type: none;
+    font-weight: 600;
+}
+
+#flex2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#flex2 :nth-child(1) {
+    flex: 2;
+}
+
+#flex2 :nth-child(2) {
+    padding-right:10%;
+}
